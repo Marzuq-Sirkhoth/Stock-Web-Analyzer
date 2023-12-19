@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>STATISTICS</title>
+</head>
+<body>
+    <h2>MEAN</h2>
+    <ul>
+        {% for i in range(4) %}
+        <h4>{{keys_array[i]}}: {{means[i]}}</h4>
+        {% endfor %}
+    </ul>
+
+    <h2>MEDIAN</h2>
+    <ul>
+        {% for i in range(4) %}
+        <h4>{{keys_array[i]}}: {{medians[i]}}</h4>
+        {% endfor %}
+    </ul>
+
+    <h2>VARIANCE</h2>
+    <ul>
+        {% for i in range(4) %}
+        <h4>{{keys_array[i]}}: {{vars[i]}}</h4>
+        {% endfor %}
+    </ul>
+</body>
