@@ -11,8 +11,7 @@ DataFrame presentation.
 Statistical insights (mean, median, variance).
 Plots for stock trends.
 
-Tech Stack:
-
+Tech Stack: 
 Flask, Python, Alpha Vantage API, Pandas, Matplotlib, mpld3.
 
 Usage:
